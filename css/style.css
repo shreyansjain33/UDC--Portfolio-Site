@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* HEADING */
+
+.header-content {
+  height: 100%;
+  align-content: flex-end;
+  text-align: right;
+}
+
+header {
+  color: #747704;
+e  max-height: 150px;
+  max-width: 100%;
+  text-align: right;
+  align-content: flex-end;
+}
+
+.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+  align-content: flex-start;
+}
+
+.backg {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	align-self: center;
+	
+}
+
+.line {
+	max-width: 100%;
+	align-self: stretch;
+	align-content: center;
+}
+
+
+/* Bottom Content */
+
+.detail {
+	text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
